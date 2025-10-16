@@ -19,3 +19,8 @@ docker run --rm -v "$PWD/test:/work/test" slt-gen
 ```
 
 The extracted corpus mirrors the upstream layout directly under `test/`.
+
+## References
+
+- https://sqlite.org/sqllogictest/doc/trunk/about.wiki
+- https://github.com/sqlite/sqlite
