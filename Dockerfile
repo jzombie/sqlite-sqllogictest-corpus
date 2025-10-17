@@ -43,4 +43,5 @@ EOF
 
 RUN chmod +x /usr/local/bin/slt-extract
 
+USER slt
 ENTRYPOINT ["slt-extract"]
