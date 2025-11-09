@@ -61,7 +61,7 @@ jobs:
         with:
           repo: ${{ steps.resolve.outputs.repo_value }}
           book_title: ${{ steps.resolve.outputs.title_value }}
-          output_dir: ./output/book
+          output_dir: ./output
 
       - name: Upload artifact for Pages
         uses: actions/upload-pages-artifact@v3
