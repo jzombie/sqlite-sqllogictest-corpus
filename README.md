@@ -1,5 +1,7 @@
 # sqlite-sqllogictest-corpus
 
+[![Ask DeepWiki][deepwiki-badge]][deepwiki-page]
+
 Minimal Docker setup that clones the official `sqllogictest` Fossil repository and copies the bundled test corpus into a local folder. Use it whenever you need a fresh snapshot of SQLite's sqllogictest cases.
 
 ## Usage
@@ -24,3 +26,6 @@ The extracted corpus mirrors the upstream layout directly under `test/`.
 
 - https://sqlite.org/sqllogictest/doc/trunk/about.wiki
 - https://github.com/sqlite/sqlite
+
+[deepwiki-page]: https://deepwiki.com/jzombie/sqlite-sqllogictest-corpus
+[deepwiki-badge]: https://deepwiki.com/badge.svg
